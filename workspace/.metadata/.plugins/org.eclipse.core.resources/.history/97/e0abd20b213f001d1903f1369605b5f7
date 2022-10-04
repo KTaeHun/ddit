@@ -1,0 +1,27 @@
+package ch04.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import ch04.vo.BookVO;
+
+public class BookRepository {
+
+	private static BookRepository instance = new BookRepository();
+		
+	// 객체 변수 instance에 대한 Getter() 메소드
+	public static BookRepository getInstance() {
+		return instance;
+	}
+	
+	private List<BookVO> listOfBooks =
+			new ArrayList<BookVO>();
+	
+	public BookRepository() {
+		
+		BookVO book1 = new BookVO("Hello coding", "HTML5+CSS3", int unitPrice);
+		
+		
+	}
+	
+}

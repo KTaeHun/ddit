@@ -1,0 +1,14 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Implicit Objects</title>
+</head>
+<body>
+	<%
+		// 모든 헤더 이름을 가져오는 메소드
+		request.getHeaderNames();
+	%>
+
+</body>
+</html>

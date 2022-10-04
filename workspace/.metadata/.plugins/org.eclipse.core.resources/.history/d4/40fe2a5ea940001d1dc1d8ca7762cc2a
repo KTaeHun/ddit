@@ -1,0 +1,45 @@
+<%@page import="ch04.vo.BookVO"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+		<%
+		request.setCharacterEncoding("UTF-8");
+		
+		String bookId = request.getParameter("bookId");
+		String name = request.getParameter("name");
+		String unitPirce = request.getParameter("unitPirce");
+		String author = request.getParameter("author");
+		String publisher = request.getParameter("publisher");
+		String releaseDate = request.getParameter("releaseDate");
+		String totalPages = request.getParameter("totalPages");
+		String description = request.getParameter("description");
+		String category = request.getParameter("category");
+		String unitsInStock = request.getParameter("unitsInStock");
+		String condition = request.getParameter("condition");
+
+		System.out.print(bookId);
+		
+		BookVO book = new BookVO();
+		book.setBookId(bookId);
+		book.setName(bookId);
+		%>
+		
+		
+	<p>도서 코드 : <%=bookId%></p>
+	<p>도서 명 : <%=name%></p>
+	<p>가격 : <%=unitPirce%></p>
+	<p>저자 : <%=author%></p>
+	<p>출판사 : <%=publisher%></p>
+	<p>출판일 : <%=releaseDate%></p>
+	<p>총페이지 수 : <%=totalPages%></p>
+	<p>상세 정보 : <%=description%></p>
+	<p>분류 : <%=category%></p>
+	<p>재고수 : <%=unitsInStock%></p>
+	<p>상태 : <%=condition%></p>
+		
+</body>
+</html>

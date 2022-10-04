@@ -1,0 +1,11 @@
+127.0.0.1 - - [30/Aug/2022:09:38:32 +0900] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [30/Aug/2022:09:38:33 +0900] "GET /ServletExam/upload.do HTTP/1.1" 405 1116
+0:0:0:0:0:0:0:1 - - [30/Aug/2022:10:17:10 +0900] "GET /ServletExam/member/insert.do HTTP/1.1" 200 662
+0:0:0:0:0:0:0:1 - - [30/Aug/2022:10:17:10 +0900] "GET /favicon.ico HTTP/1.1" 404 1085
+127.0.0.1 - - [30/Aug/2022:10:17:10 +0900] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [30/Aug/2022:10:17:20 +0900] "GET /ServletExam/member/upload.do HTTP/1.1" 404 1110
+0:0:0:0:0:0:0:1 - - [30/Aug/2022:10:17:27 +0900] "GET /ServletExam/member/upload.sjp HTTP/1.1" 404 1111
+0:0:0:0:0:0:0:1 - - [30/Aug/2022:10:17:46 +0900] "GET /ServletExam/upload.jsp HTTP/1.1" 200 802
+0:0:0:0:0:0:0:1 - - [30/Aug/2022:11:06:58 +0900] "POST /ServletExam/upload2.do HTTP/1.1" 404 1100
+127.0.0.1 - - [30/Aug/2022:11:07:10 +0900] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [30/Aug/2022:11:07:16 +0900] "POST /ServletExam/upload2.do HTTP/1.1" 200 22

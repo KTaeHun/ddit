@@ -1,0 +1,25 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		// 폼 페이지에서 입력된 데이터를 서버로 전송 시 한글이 깨지지 않도록
+		// 문자 인코딩 유형을 UTF-8로 함
+		request.setCharacterEncoding("UTF-8");
+		
+		String id = request.getParameter("id");
+		String id = request.getParameter("id");
+		String id = request.getParameter("id");
+		String id = request.getParameter("id");
+		String id = request.getParameter("id");
+		String id = request.getParameter("id");
+		String id = request.getParameter("id");
+		String id = request.getParameter("id");
+		String id = request.getParameter("id");
+		String id = request.getParameter("id");
+	%>
+</body>
+</html>

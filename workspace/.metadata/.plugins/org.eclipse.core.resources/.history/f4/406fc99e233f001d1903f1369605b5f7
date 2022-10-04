@@ -1,0 +1,49 @@
+<%@page import="ch04.vo.BookVO"%>
+<%@page import="java.util.List"%>
+<%@page import="ch04.dao.BookRepository"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html><%  // 스크립틀릿 태그
+	// 기본적으로 3개의 상품이 생성되어 있는 객체 생성
+	BookRepository BookDAO = BookRepository.getInstance();
+	// SELECT * FROM PRODUCT 
+	List<BookVO> listOfBooks = BookDAO.getAllProducts();
+// 	out.print(listOfProducts);
+%>
+<!-- 아스가르드 -> Earth로 소환 -->
+<!--  scope : 영역
+	page(동일 jsp)(기본), request(동일 요청), session(동일 웹브라우저), application(모든 웹브라우저)	
+-->
+<c:set var="listOfBooks" value="<%=listOfBooks%>" scope="page" />
+<html>
+<head>
+<link rel="stylesheet" 
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<title>도서 목록</title>
+</head>
+<body>
+	<jsp:include page="menu.jsp" />
+		<div class="jumbotron">
+			<!-- 내용 드루와 -->
+			<div class="container">
+				<h1 class="display-3">도서목록</h1>
+			</div>
+		</div>
+		<div class="container">
+		<div class="row" align="center">
+			<!-- List<ProductVO> -> 한 행을 꺼내오면 -> ProductVO -->
+			<c:forEach var="ProductVO" items="${listOfProducts}">
+				<div class="col-md-4">
+					<!-- vo.멤버변수로 접근 -->
+					<h3>${ProductVO.pname}</h3>
+					<p>${ProductVO.productId}</p>
+					<p>${ProductVO.unitPrice}원</p>
+					<!-- 상품 아이디에 대한 상세 정보 페이지가 연결되도록 상세 정보 버튼  -->
+					
+				</div>	
+			</c:forEach>
+		</div>	
+	</div>
+
+</body>
+</html>

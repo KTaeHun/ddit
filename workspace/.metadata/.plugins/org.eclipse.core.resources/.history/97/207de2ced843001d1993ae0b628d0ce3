@@ -1,0 +1,44 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<%@page import="ch04.dao.BookRepository"%>
+<%@page import="ch04.vo.BookVO"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+		<%
+		request.setCharacterEncoding("UTF-8");
+		
+		String bookId = request.getParameter("bookId");
+		String name = request.getParameter("name");
+		int unitPrice = Integer.parseInt(request.getParameter("unitPrice"));
+		String author = request.getParameter("author");
+		String publisher = request.getParameter("publisher");
+		String releaseDate = request.getParameter("releaseDate");
+		int totalPages = Integer.parseInt(request.getParameter("totalPages"));
+		String description = request.getParameter("description");
+		String category = request.getParameter("category");
+		int unitsInStock = Integer.parseInt(request.getParameter("unitsInStock"));
+		String condition = request.getParameter("condition");
+		String filename = request.getParameter("fileName")
+
+		BookRepository dao = BookRepository.getInstance();
+		
+		BookVO addBook = new BookVO();
+		addBook.setBookId(bookId);
+		addBook.setName(name);
+		addBook.setUnitPrice(unitPrice);
+		addBook.setAuthor(author);
+		addBook.setPublisher(publisher);
+		addBook.setReleaseDate(releaseDate);
+		addBook.setTotalPages(totalPages);
+		addBook.setDescription(description);
+		addBook.setCategory(category);
+		addBook.setUnitsInStock(unitsInStock);
+		addBook.setCondition(condition);
+		dao.addBook(addBook);
+		response.sendRedirect("books.jsp");
+		%>
+</body>
+</html>

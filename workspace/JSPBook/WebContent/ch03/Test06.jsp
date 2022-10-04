@@ -1,0 +1,15 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<title>taglib 디렉티브 태그</title>
+</head>
+<body>
+	<h3>
+	<c:forEach var="k" begin="0" end="10" step="2">
+		<c:out value="${k}" />
+	</c:forEach>
+	</h3>
+</body>
+</html>

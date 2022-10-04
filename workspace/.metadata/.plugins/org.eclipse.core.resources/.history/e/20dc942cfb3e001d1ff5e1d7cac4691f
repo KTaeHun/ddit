@@ -1,0 +1,19 @@
+package ch04.dao;
+
+public class ProductRepository {
+	// 싱글톤 패턴
+	// ProductRepository 클래스의 기본 생성자에 대한 객체 변수 instance를 작성함
+	private static ProductRepository instance = new ProductRepository();
+	// 기본 생성자
+	private ProductRepository() {}
+	// 객체 변수 instance에 대한 Getter() 메소드
+	public static ProductRepository getInstance() {
+		return instance;
+	}
+	
+	// 기본 생성자.
+	public ProductRepository() {
+		// Smart Phone 상품 추가(1행(ProductVO) 추가)
+		ProductVO phone = new ProductVO("P1234", "iPhone 6s", 800000);
+	}
+}

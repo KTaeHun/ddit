@@ -1,0 +1,11 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Directive Tag</title>
+</head>
+<body>
+	errorPage 디렉티브 태그 <br>
+	에러가 발생했습니다.
+</body>
+</html>

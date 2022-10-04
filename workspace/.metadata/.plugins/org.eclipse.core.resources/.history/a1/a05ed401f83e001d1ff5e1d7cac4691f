@@ -1,0 +1,5 @@
+package ch04.dao;
+
+public class ProductRepository {
+	// 싱글톤 패턴
+}

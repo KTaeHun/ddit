@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;kr.or.ddit.reflection.T02ClassMetadata&apos; to &apos;T02ClassMetadataTest&apos;&#x0D;&#x0A;- Original project: &apos;AnnotationTest&apos;&#x0D;&#x0A;- Original element: &apos;kr.or.ddit.reflection.T02ClassMetadata&apos;&#x0D;&#x0A;- Renamed element: &apos;kr.or.ddit.reflection.T02ClassMetadataTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;T02ClassMetadata&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;kr.or.ddit.reflection{T02ClassMetadata.java[T02ClassMetadata" matchStrategy="1" name="T02ClassMetadataTest" qualified="false" references="true" similarDeclarations="false" stamp="1658807127510" textual="false" version="1.0"/>
+</session>

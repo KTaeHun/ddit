@@ -1,0 +1,6 @@
+package ch04.vo;
+
+// ProductVO : PRODUCT 테이블의 1 행을 담음
+public class ProductVO {
+
+}

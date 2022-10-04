@@ -1,0 +1,11 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<%@ include file="Test05_header.jsp" %>
+<!DOCTYPE html>
+<html>
+<head>
+<title>include 디렉티브 태그</title>
+</head>
+<body>
+
+</body>
+</html>

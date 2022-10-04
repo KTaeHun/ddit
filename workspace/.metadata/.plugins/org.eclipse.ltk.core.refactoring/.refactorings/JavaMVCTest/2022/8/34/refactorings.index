@@ -1,0 +1,12 @@
+1660735710388	Rename package 'Borad.dao'
+1660735764561	Move compilation unit
+1660735766975	Move compilation unit
+1660735769630	Move compilation unit
+1660735772427	Move compilation unit
+1660735779987	Copy compilation unit
+1660735797064	Rename type 'BoardDAO'
+1660735804019	Copy compilation unit
+1660735811653	Rename type 'BoardService'
+1660735817861	Delete element
+1660735828490	Rename type 'IMemberService'
+1660735837922	Rename type 'IMemberDAO'

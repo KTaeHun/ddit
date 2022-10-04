@@ -1,0 +1,21 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- *** 웹 브라우저의 IP 주소를 가져옴  -->
+	<p>클라이언트 IP : </p>
+	<p>요청 정보 길이 : </p>
+	<p>요청 정보 인코딩 : </p>
+	<p>요청 정보 콘텐츠 유형</p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+</body>
+</html>

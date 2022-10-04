@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="도서"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="상품"/>
+			<item value="Product"/>
+			<item value="img"/>
+			<item value="Myutil"/>
+			<item value="mv"/>
+			<item value="memId"/>
+			<item value="Member"/>
+			<item value="memDao"/>
+			<item value="MemberVO"/>
+			<item value="infobo"/>
+			<item value="T08ServletFileter"/>
+			<item value="phoneNum"/>
+			<item value="&#x09;while(true) {"/>
+			<item value="WIRTER"/>
+			<item value="mem"/>
+		</list>
+		<list key="replacehistory">
+			<item value="도서"/>
+			<item value="Book"/>
+			<item value="MyUtil"/>
+			<item value="ibv"/>
+			<item value="infoboNum"/>
+			<item value="InfoBoard"/>
+			<item value="infoBoardDao"/>
+			<item value="InfoBoardVO"/>
+			<item value="T08ServletFileter2"/>
+			<item value="tel"/>
+			<item value="bv"/>
+			<item value="Board"/>
+			<item value="board"/>
+			<item value="JDBCUtil3"/>
+			<item value="JDBCUtil2"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="482"/>
+		<item key="DIALOG_Y_ORIGIN" value="263"/>
+		<item key="DIALOG_WIDTH" value="288"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.jst.jsp.ui.internal.preferences.ui.JSPTemplatePreferencePage$JSPEditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="220"/>
+		<item key="DIALOG_Y_ORIGIN" value="147"/>
+		<item key="DIALOG_WIDTH" value="1009"/>
+		<item key="DIALOG_HEIGHT" value="728"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

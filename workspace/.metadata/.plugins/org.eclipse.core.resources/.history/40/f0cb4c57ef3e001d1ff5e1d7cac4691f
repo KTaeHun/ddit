@@ -1,0 +1,8 @@
+package ch04.vo;
+
+// ProductVO : PRODUCT 테이블의 1 행을 담음
+// VO : Value Object
+// 자바빈 클래스(멤버변수, 기본 생성자, getter/setter 메소드)
+public class ProductVO {
+
+}

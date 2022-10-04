@@ -1,0 +1,48 @@
+1663029610525	Delete element
+1663029631012	Delete element
+1663029727980	Delete element
+1663029915517	Delete element
+1663031145764	Delete element
+1663031340274	Delete element
+1663031390026	Rename package 'kr.or.ddit.member.vo'
+1663031402295	Rename package 'kr.or.ddit.member.controller'
+1663031412638	Rename package 'kr.or.ddit.member.dao'
+1663031421523	Rename package 'kr.or.ddit.member.service'
+1663031567122	Rename type 'IMemberService'
+1663031582227	Rename type 'MemberServiceImpl'
+1663031594972	Rename type 'IMemberDAO'
+1663031607884	Rename type 'MemberDAOImpl'
+1663031624557	Rename type 'DeleteMemberController'
+1663031632961	Rename type 'DetailMemberController'
+1663031641930	Rename type 'InsertMemberController'
+1663032648142	Rename package 'kr.or.ddit.infobard.vo'
+1663034986532	Rename type 'infobardDAO'
+1663034993728	Rename type 'infobardDAOImpl'
+1663035003111	Rename type 'infobardServiceImpl'
+1663035033186	Rename type 'InfobardDAOImpl'
+1663035041601	Rename type 'InfobardDAO'
+1663036026115	Rename compilation unit 'InfobardServiceImpl.java'
+1663036138596	Rename type 'InfoboardDAO'
+1663036146176	Rename type 'InfoboardDAOImpl'
+1663036163349	Rename compilation unit 'DeleteinfobardController.java'
+1663036178018	Rename type 'DetailinfobardController'
+1663036189064	Rename type 'InsertinfobardController'
+1663036209339	Rename type 'UpdateMemberController'
+1663037360628	Rename package 'kr.or.ddit.infobard.dao'
+1663037371198	Rename package 'kr.or.ddit.infobard.service'
+1663037381207	Rename package 'kr.or.ddit.infobard.controller'
+1663044485191	Rename type 'ListMemberController'
+1663070888314	Move 'web.xml' to 'WEB-INF'
+1663289156482	Rename compilation unit 'paging.java'
+1663289169579	Rename type 'infoboPaging'
+1663294998040	Rename compilation unit 'MyUtil.java'
+1663296042981	Delete element
+1663304760970	Rename type 'page'
+1663309201223	Delete element
+1663309202851	Delete element
+1663309206255	Delete element
+1663309207184	Delete element
+1663309208226	Delete element
+1663309209334	Delete element
+1663309210574	Delete element
+1663309211560	Delete element

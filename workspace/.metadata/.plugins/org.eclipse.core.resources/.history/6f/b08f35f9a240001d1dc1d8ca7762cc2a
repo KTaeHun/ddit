@@ -1,0 +1,39 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+		<%
+		request.setCharacterEncoding("UTF-8");
+		
+		String bookId = request.getParameter("bookId");
+		String name = request.getParameter("name");
+		String unitPirce = request.getParameter("unitPirce");
+		String author = request.getParameter("author");
+		String phone2 = request.getParameter("phone2");
+		String phone3 = request.getParameter("phone3");
+		String gender = request.getParameter("gender");
+		// 폼 페이지에서 입력된 취미 값을 배열로 얻어옴
+		String[] hobby = request.getParameterValues("hobby");
+		String comment = request.getParameter("comment");
+	%>
+	<p>아이디 : <%=id%></p>
+	<p>비밀번호 : <%=passwd%></p>
+	<p>이름 : <%=name%></p>
+	<p>번호 : <%=phone1%>-<%=phone2%>-<%=phone3%></p>
+	<p>성별 : <%=gender%></p>
+	<p>취미 : 
+		<%
+			if(hobby!=null) {
+				for(String str : hobby) {
+					out.println(" " + str);
+				}
+			}
+		%>
+	
+	</p>
+	<p>가입인사 : <%=comment%></p>
+</body>
+</html>

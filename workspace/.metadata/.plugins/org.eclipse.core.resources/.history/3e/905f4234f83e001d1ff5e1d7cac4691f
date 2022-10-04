@@ -1,0 +1,10 @@
+package ch04.dao;
+
+public class ProductRepository {
+	// 싱글톤 패턴
+	private static ProductRepository instance = new ProductRepository();
+	private ProductRepository() {}
+	public static ProductRepository getInstance() {
+		return instance;
+	}
+}

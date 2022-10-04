@@ -1,0 +1,16 @@
+package ch04.vo;
+
+public class Test07VO {
+	
+	private String bookId;
+	private String name;
+	private int unitPrice;
+	private String author;
+	private String descroption;
+	private String publisher;
+	private String category;
+	private long unitsInStock;
+	private long totalPages;
+	private String releaseDate;
+	private String condition;
+}
